@@ -1,6 +1,6 @@
 "use strict";
 
-angular.module('starter', ['ionic','ngCordova'])
+angular.module('myApp', ['ionic','ngCordova'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -14,3 +14,8 @@ angular.module('starter', ['ionic','ngCordova'])
     }
   });
 })
+
+.controller('mainCtrl',function($cordovaDevice){
+	this.token = $cordovaDevice.getUUID();
+})
+;
