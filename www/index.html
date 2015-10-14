@@ -36,16 +36,15 @@
     </head>
   <body ng-controller="mainCtrl as ctrl">
 
-   <ion-header-bar class="bar-positive">
-      <h1 class="title">Contacts</h1>
-      <div class="buttons">
-        <button class="button button-icon ion-compose" >
-        </button>
-      </div>
-</ion-header-bar>
+<ion-nav-bar class="bar-positive">
+  </ion-nav-bar>
 
-<ion-content>
-<span>{{ctrl.token}}</span>
-</ion-content>
+  <!-- where the initial view template will be rendered -->
+  <ion-nav-view>
+    <ion-view>
+      <ion-content>{{ctrl.token}}</ion-content>
+    </ion-view>
+  </ion-nav-view>
+
 </body>
 </html>
