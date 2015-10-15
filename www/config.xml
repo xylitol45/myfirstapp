@@ -47,9 +47,9 @@
     <!-- Plugins -->
 
     <!-- Core plugins -->
-<!--
     <gap:plugin name="org.apache.cordova.device" />
     <gap:plugin name="org.apache.cordova.statusbar" />
+<!--
 
     <gap:plugin name="org.apache.cordova.battery-status" />
     <gap:plugin name="org.apache.cordova.camera" />
@@ -75,6 +75,7 @@
     <!--
         <gap:plugin name="com.phonegap.plugins.barcodescanner" />
     -->
+	<gap:plugin name="com.phonegap.plugins.pushplugin" />
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
