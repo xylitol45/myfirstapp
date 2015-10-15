@@ -76,7 +76,7 @@
         <gap:plugin name="com.phonegap.plugins.barcodescanner" />
     -->
 
-	<gap:plugin name="com.phonegap.plugins.pushplugin" version="2.5.0" />
+	<gap:plugin name="com.phonegap.plugins.pushplugin" />
 
 	
     <!-- Define app icon for each platform. -->
