@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.kick55.a.myfirstapp"
-        version   = "1.0.1">
+        version   = "1.0.2">
 
     <name>myfirstapp</name>
 
@@ -47,9 +47,10 @@
     <!-- Plugins -->
 
     <!-- Core plugins -->
+<!--
     <gap:plugin name="org.apache.cordova.device" />
     <gap:plugin name="org.apache.cordova.statusbar" />
-<!--
+
     <gap:plugin name="org.apache.cordova.battery-status" />
     <gap:plugin name="org.apache.cordova.camera" />
     <gap:plugin name="org.apache.cordova.media-capture" />

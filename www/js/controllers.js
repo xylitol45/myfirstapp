@@ -1,7 +1,7 @@
 "use strict";
 
 angular.module('myApp.controllers', [])
-.controller('mainCtrl',function($scope,$ionicPlatform,$cordovaStatusbar,$cordovaDevice){
+.controller('mainCtrl',function($scope,$ionicPlatform){
 	
 	var _this=this;
 //	_this.token = 'GO';
@@ -13,7 +13,7 @@ angular.module('myApp.controllers', [])
 //		  $cordovaStatusbar.show();
 // 		_this.token = 'HELLO';
 // 		$scope.$apply();
-		_this.token = $cordovaDevice.getUUID() + " OK!!";
+//		_this.token = $cordovaDevice.getUUID() + " OK!!";
  		$scope.$apply();
  	});
     
