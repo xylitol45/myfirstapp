@@ -3,10 +3,10 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.kick55.a.myfirstapp"
+        id        = "com.kick55.a.myfirstapp2"
         version   = "1.0.2">
 
-    <name>myfirstapp</name>
+    <name>myfirstapp2</name>
 
     <description>
         Hello World sample application that responds to the deviceready event.
@@ -75,9 +75,9 @@
     <!--
         <gap:plugin name="com.phonegap.plugins.barcodescanner" />
     -->
-
+<!--
 	<gap:plugin name="com.phonegap.plugins.pushplugin" />
-
+-->
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
     <icon src="res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:qualifier="ldpi" />
