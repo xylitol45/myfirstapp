@@ -10,7 +10,7 @@ angular.module('myApp', ['ionic','ngCordova','myApp.controllers'])
 //    if(window.StatusBar) {
 //      StatusBar.styleDefault();
 //    }
-    $cordovaStatusbar.overlaysWebView(true);
+    $cordovaStatusbar.overlaysWebView(false);
 
    }, false);
 //   $cordovaStatusbar.overlaysWebView(true);
