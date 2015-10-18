@@ -7,13 +7,13 @@ angular.module('myApp.controllers', [])
 //	$scope.token = 'WO';
     $ionicPlatform.ready(function() {
 		 //_this.token = $cordovaDevice.getUUID();
- 		_this.token = 'HELLO';
- 		$scope.$apply();
+// 		_this.token = 'HELLO';
+// 		$scope.$apply();
  	});
     
     
     document.addEventListener("deviceready", function() {
-    	_this.token = $cordovaDevice.getUUID();
+    	_this.model = $cordovaDevice.getModel();
     	$scope.$apply();
       }, false);
 })
