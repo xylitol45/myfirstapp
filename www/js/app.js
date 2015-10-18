@@ -3,19 +3,12 @@
 angular.module('myApp', ['ionic','ngCordova','myApp.controllers'])
 
 .run(function($ionicPlatform, $cordovaStatusbar) {	
-    document.addEventListener("deviceready", function() {
-//    if(window.cordova && window.cordova.plugins.Keyboard) {
-//      cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
-//    }
-//    if(window.StatusBar) {
-//      StatusBar.styleDefault();
-//    }
+
+	document.addEventListener("deviceready", function() {
       $cordovaStatusbar.overlaysWebView(true);
-      // $cordovaStatusbar.hidden();
-
    }, false);
-//   $cordovaStatusbar.overlaysWebView(true);
 
+// どうもうまく動作しない
 //  $ionicPlatform.ready(function() {
 //    if(window.cordova && window.cordova.plugins.Keyboard) {
 //      cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
