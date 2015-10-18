@@ -45,7 +45,7 @@
     <!-- Plugins -->
 
     <!-- Core plugins -->
-    <gap:plugin name="org.apache.cordova.statusbar" />
+    <gap:plugin name="com.phonegap.plugin.statusbar" />
 
     <gap:plugin name="org.apache.cordova.battery-status" />
     <gap:plugin name="org.apache.cordova.camera" />
