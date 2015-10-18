@@ -3,17 +3,17 @@
 angular.module('myApp', ['ionic','ngCordova','myApp.controllers'])
 
 .run(function($ionicPlatform, $cordovaStatusbar) {	
-	document.addEventListener("deviceready", function() {
-      //$cordovaStatusbar.overlaysWebView(true);
-   }, false);
-
-// どうもうまく動作しない
+	// どうもうまく動作しない
 //  $ionicPlatform.ready(function() {
 //  });
+
+//	document.addEventListener("deviceready", function() {
+//      $cordovaStatusbar.overlaysWebView(true);
+//   }, false);
+
 	ionic.Platform.ready(function(){
 	    $cordovaStatusbar.overlaysWebView(true);
 	 });
-
 })
 ;
 
