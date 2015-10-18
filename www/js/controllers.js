@@ -13,8 +13,8 @@ angular.module('myApp.controllers', [])
     
     
     document.addEventListener("deviceready", function() {
-    	_this.model = $cordovaDevice.getModel();
-    	$scope.$apply();
+    	// _this.model = $cordovaDevice.getModel();
+    	// $scope.$apply();
       }, false);
 })
 ;
