@@ -44,10 +44,10 @@
     <!--
     <preference name="StatusBarOverlaysWebView" value="true" />
 -->
-<!--    
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
+<!--    
   <preference name="StatusBarOverlaysWebView" value="false" />
 
   <gap:config-file platform="ios" parent="UIStatusBarHidden">
