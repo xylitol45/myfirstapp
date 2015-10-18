@@ -41,10 +41,12 @@
         Define a specific version of PhoneGap to build into your app.
         <preference name="phonegap-version"       value="3.5.0" />
     -->
-  <feature name="StatusBar">
+<!--  
+<feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
-
+-->
+	<preference name="StatusBarOverlaysWebView" value="true" />
     <!-- Plugins -->
 
     <!-- Core plugins -->
